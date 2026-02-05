@@ -77,6 +77,22 @@ header{
   font-size:24px;
   margin:0 0 40px 0;
 }
+.qa-item {
+  display: flex;
+  align-items: center;  /* vertically center text and image */
+  gap: 20px;            /* space between text and image */
+  margin-bottom: 40px;
+}
+
+.qa-content {
+  flex: 1;              /* take remaining space */
+}
+
+.qa-img {
+  width: 150px;         /* size of the image */
+  height: auto;
+  border-radius: 8px;   /* optional rounded corners */
+}
 /* ===== TEST WRAPPER ===== */
 #testWrapper{
   display:none;
@@ -179,3 +195,4 @@ header{
 .info{font-size:12px;margin-top:10px}
 /* ===== ASTIGMATISM ===== */
 .astig-svg{width:300px;height:300px}
+
